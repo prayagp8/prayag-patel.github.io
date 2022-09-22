@@ -323,7 +323,9 @@ header .follow a:hover{
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
-
+.about .row-2 .box-container .box:hover{
+    box-shadow: rgba(80, 232, 20, 0.35) 0px 5px 15px;
+}
 .about .row-2 .box-container .box h3{
     color:var(--main-color);
     font-size: 3rem;
@@ -348,6 +350,10 @@ header .follow a:hover{
     background:#fff;
     border-radius: .5rem;
     box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+.service .box-container .box:hover{
+
+    box-shadow: rgba(232, 20, 20, 0.35) 0px 5px 15px;
 }
 
 .service .box-container .box i{
@@ -385,6 +391,7 @@ header .follow a:hover{
     padding-right: 2rem;
     padding-bottom: 2rem;    
 }
+
 
 .experience .box-container .box::before{
     content: '';
