@@ -456,8 +456,8 @@ header .follow a:hover{
 }
 
 .portfolio .box-container .box:hover img{
-    height:50%;
-    width:50%;
+    height:45%;
+    width:45%;
 }
 
 .portfolio .box-container .box h3{
@@ -677,6 +677,6 @@ header .follow a:hover{
 }
 
 .project-desc{
-    font-size:1.4rem;
+    font-size:1.3rem;
 }
 
