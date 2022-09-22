@@ -73,7 +73,7 @@ header{
     z-index: 1000;
     flex-flow: column;
     padding:8rem 2rem;
-    width:30rem;
+    width:25rem;
     text-align: center;
 }
 
@@ -449,8 +449,8 @@ header .follow a:hover{
 }
 
 .portfolio .box-container .box:hover img{
-    height:75%;
-    width:75%;
+    height:50%;
+    width:50%;
 }
 
 .portfolio .box-container .box h3{
@@ -468,13 +468,13 @@ header .follow a:hover{
 
 .portfolio .box-container .box .icons a{
     display: block;
-    height:4rem;
-    width:4rem;
+    height:3rem;
+    width:10rem;
     border-radius: .5rem;
     background: #eee;
     color:#333;
-    font-size: 1.7rem;
-    line-height: 4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -657,4 +657,19 @@ header .follow a:hover{
 }
 
 
+
+
+
+/* === */
+.github-stats{
+    text-align: center;
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+
+.project-desc{
+    font-size:1.4rem;
+}
 
