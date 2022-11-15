@@ -1,9 +1,9 @@
-# portfolio
+# Portfolio
 
 
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://prayagp8.github.io/" target="_blank">/prayagp8.github.io</a>
+  <a href="https://prayagp8.github.io" target="_blank">https://prayagp8.github.io</a>
 </h2>
 
 <a href="https://im.ge/i/1oijEW"><img src="https://i.im.ge/2022/09/14/1oijEW.portfolio-thumnail.png" alt="portfolio_thumnail" border="0"></a>
