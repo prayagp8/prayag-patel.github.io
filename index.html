@@ -32,7 +32,10 @@
         <a href="#about">about</a>
         <a href="#service">skills</a>
         <a href="#experience">qualification</a>
-        <a href="./images/prayag_patel_resume.pdf" download>resume</a>
+        <a id="myyfun" href="./images/Prayag_Patel_Resume.pdf" download
+          >resume</a
+        >
+
         <a href="#portfolio">project</a>
         <a href="#contact">contact</a>
       </nav>
@@ -95,7 +98,7 @@
             computer languages to create web products.
           </p>
           <div class="box-container"></div>
-          <a download href="./images/prayag_patel_resume.pdf" class="btn"
+          <a download href="./images/Prayag_Patel_Resume.pdf" class="btn"
             >download CV</a
           >
         </div>
@@ -382,37 +385,7 @@
         />
       </div>
 
-      <div class="calendar">Loading the data just for you.</div>
-
-      <script>
-        /*==================== GITHUB CALENDAR ====================*/
-        GitHubCalendar(".calendar", "prayagp8", {
-          responsive: true,
-          global_stats: false,
-          tooltips: true,
-        });
-
-        $(".counting").each(function () {
-          var $this = $(this),
-            countTo = $this.attr("data-count");
-
-          $({ countNum: $this.text() }).animate(
-            {
-              countNum: countTo,
-            },
-            {
-              duration: 3000,
-              easing: "linear",
-              step: function () {
-                $this.text(Math.floor(this.countNum));
-              },
-              complete: function () {
-                $this.text(this.countNum);
-              },
-            }
-          );
-        });
-      </script>
+      <div class="calendar"></div>
     </section>
     <!-- contact section starts  -->
 
@@ -487,4 +460,39 @@
   </body>
   <!-- custom js file link  -->
   <script src="js/script.js"></script>
+
+  <script>
+    /*==================== GITHUB CALENDAR ====================*/
+    GitHubCalendar(".calendar", "prayagp8", {
+      responsive: true,
+      global_stats: false,
+      tooltips: true,
+    });
+
+    $(".counting").each(function () {
+      var $this = $(this),
+        countTo = $this.attr("data-count");
+
+      $({ countNum: $this.text() }).animate(
+        {
+          countNum: countTo,
+        },
+        {
+          duration: 3000,
+          easing: "linear",
+          step: function () {
+            $this.text(Math.floor(this.countNum));
+          },
+          complete: function () {
+            $this.text(this.countNum);
+          },
+        }
+      );
+    });
+
+    document.getElementById("myyfun").addEventListener("click", function () {
+      window.location.href =
+        "https://drive.google.com/file/d/10qJBjQqiEWfQo5XoC7RfgjcwoYVH_JyR/view?usp=sharing";
+    });
+  </script>
 </html>
