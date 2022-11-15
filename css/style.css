@@ -688,4 +688,7 @@ header .follow a:hover{
     width: 80%;
 }
 
+#mail{
+    text-transform: lowercase;
+}
 
