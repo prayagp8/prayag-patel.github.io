@@ -687,26 +687,21 @@ header .follow a:hover{
 }
 
 
+#mail{
+    text-transform: lowercase;
+}
 
 
 
 /* === */
-.github-stats{
-    text-align: center;
-    font-size:30px;
-    margin-top:10px;
-    margin-bottom:10px;
-
+.github-stats {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.project-desc{
-    font-size:1.4rem;
-}
-.github-images img{
-    width: 80%;
-}
-
-#mail{
-    text-transform: lowercase;
+.project-desc {
+  font-size: 1.4rem;
 }
 
